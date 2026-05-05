@@ -1,0 +1,11 @@
+{
+  "name": "optimize-images",
+  "version": "1.0.0",
+  "description": "a script for making images optimized ,changes /public folder PNGs to webp/avif to reduce size",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arash Mehdizadeh",
+  "license": "ISC"
+}
