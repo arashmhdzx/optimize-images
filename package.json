@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "a script for making images optimized ,changes /public folder PNGs to webp/avif to reduce size",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx index.ts"
   },
   "author": "Arash Mehdizadeh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "glob": "^13.0.6",
+    "sharp": "^0.34.5",
+    "tsx": "^4.21.0"
+  }
 }
